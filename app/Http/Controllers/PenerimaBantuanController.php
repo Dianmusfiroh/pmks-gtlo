@@ -13,6 +13,7 @@ class PenerimaBantuanController extends Controller
     public function index()
     {
         $modul = $this->modul;
+        //
         return view('penerimaBantuan.index',compact('modul'));
 
     }
